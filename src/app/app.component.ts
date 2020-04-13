@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Test';
+  
+  constructor() {
+	  let test_required_css = require('./app.component.css');
+	  console.log('test_required_css');
+	  console.log(test_required_css);
+  }
 }
