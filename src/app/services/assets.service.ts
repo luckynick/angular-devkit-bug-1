@@ -45,12 +45,12 @@ export class AssetsManager {
 
     requireFromSrc( relPath: string ) {
         //return null;
-        return require( '../../' + relPath ).default; //PROBLEM
+        return require( '../../' + relPath ); //PROBLEM
     }
 
     requireFromApp( relPath: string ) {
-        //return null;
-        return require( '../' + relPath ).default; //PROBLEM
+        return null;
+        //return require( '../' + relPath ).default;
     }
     
 
